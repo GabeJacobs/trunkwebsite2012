@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Traveling Treasure Trunk</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="The official website of the TUFTS TRAVELLING TREASURE TRUNK" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="icon" type="image/vnd.microsoft.icon" href="images/favicon.ico" />
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+    <script type="text/javascript" src="js/jquery.backgroundPosition.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="http://twitterjs.googlecode.com/svn/trunk/src/twitter.min.js"></script>
+  </head>
+  <body class="noJS">
+    <div id="headerContainer">
+      <div id="header">
+        <a href="#home" id="logo" class="goto_home"><strong>Traveling Treasure Trunk</strong></a>
+        <a href="#home" id="chucks" class="goto_home"></a>
+      </div>
+    </div>
+    <div id="nav">
+      <ul>
+        <li><a href="#bios" id="navBios" class="goto_bios">Bios</a></li>
+        <li><a href="#contact" id="navContact" class="goto_contact">Contact</a></li>
+      </ul>
+    </div>
+    <div id="title">
+      <div id="controlContainer">
+        <h1>Tufts Traveling Treasure Trunk!</h1>
+        <div id="title2"></div>
+        <div id="title3"></div>
+        <a href="#" id="prevControl" class="noScroll">prev</a>
+        <a href="#" id="nextControl" class="goto_bios">next</a>
+      </div>
+    </div>
+    <div id="content">
+      <div id="contentScroller">
+
+        <div id="home" class="page">
+          <div id="hello" class="quadColumn">
+            <h2>YEHAW!</h2>
+            <p class="large">Founded in the fall of 1987, Traveling Treasure
+            Trunk is Tufts University’s own children’s theatre troupe that
+            uniquely blends theatre performance with community service. TRUNK
+            writes, directs, and costumes its own original skits, songs, and
+            plays and performs them for kids at daycares, hospitals, and
+            preschools in the greater Boston area. As Tufts’ only children’s’
+            entertainment troupe, TRUNK takes tremendous pride in the quality of
+            its performances. <br><br>
+            The Traveling Treasure Trunk proudly presents…our brand new website!</p>
+          </div>
+          <div id="laptop" class="quadColumn endColumn">
+            <img src="images/trunkensig.png" />
+          </div>
+        </div>
+
+        <div id="bios" class="page">
+          <div id="webMain">
+            <div class="quadColumn">
+              <a href="#" id="zacapaLink"><img src="images/bios/marshall.jpg" alt="Zacapa Rum" /></a>
+              <h3>Jamie Wollum</h3>
+              <p>Sophmore</p>
+              <p>She likes cats</p>
+            </div>
+            <div class="quadColumn endColumn">
+              <a href="#" id="antisocialLink"><img src="images/bios/imogen.jpg" alt="Antisocial in the Kitchen" /></a>
+              <h3>Marshall Moutenot</h3>
+              <p>Senior and Potato FREAK</p>
+            </div>
+            <div class="quadColumn">
+              <a href="#" id="adambutcherLink"><img src="images/bios/imogen.jpg" alt="Adam Butcher" /></a>
+              <h3>Chris Lowe</h3>
+              <p>Senior and PoopDood</p>
+            </div>
+            <div class="quadColumn endColumn">
+              <a href="#" id="smithharrisonLink"><img src="images/bios/michael.jpg" alt="Smith Harrison" /></a>
+              <h3>Jojo RAMAMBIBMB</h3>
+              <p>EL PRESIDENTE</p>
+            </div>
+          </div>
+        </div>
+        <div id="contact" class="page">
+          <div class="doubleColumn">
+            <p>Interested in having Trunk! perform in your community? Get in touch!</p>
+            <p>We'd love to hear about your organization and perform for you!</p>
+            <p>You can also always reach us at <a
+                href="mailto:travelingtrunk@gmail.com">travelingtrunk@gmail.com</a></p>
+          </div>
+          <div class="quadColumn">
+            <form id="myForm" action="index.php#contact" method="post">
+              <label for="emailName">Name:</label>
+              <input name="emailName" type="text" id="emailName"  value="" />
+              <label for="emailFrom">Email:</label>
+              <input name="emailFrom" type="text" id="emailFrom"  value="" />
+              <label for="emailMessage">Message:</label>
+              <textarea name="emailMessage" cols="30" rows="9"  id="emailMessage"></textarea>
+              <input type="image" id="submit" class="submit" src="images/send.png" alt="Send" />
+              <input type="hidden" name="submitted" id="submitted" value="true" />
+            </form>
+          </div>
+          <div id="postbox" class="doubleColumn endColumn">
+            <img src="images/contact.png" />
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div id="footerContainer">
+      <div id="footer">
+        <h2>Traveling Treasure Trunk on the Web!</h2>
+        <div id="socialNetworks" class="quadColumn">
+          <a href="https://twitter.com/trunkalunk">Follow us on Twitter! <img
+            height="18px" src="images/twitter_icon.png" alt="Twitter" /></a>
+        </div>
+      </div>
+    </div>
+    <div id="bottomBorder"></div>
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-731429-2']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+       })();
+     </script>
+   </body>
+ </html>
