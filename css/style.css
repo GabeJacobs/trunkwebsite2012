@@ -233,7 +233,7 @@ left:0px;
 #content
 {
   width:940px;
-  height:620px;
+  height:580px;
   padding:0px 20px 0px;
   margin:30px auto 10px;
   overflow:hidden;
@@ -378,6 +378,10 @@ h3
   min-height:300px;
 }
 
+#bios img{
+  height:250px;
+}
+
 #home h2
 {
   height:30px;
@@ -404,7 +408,7 @@ h3
 {
   display:block;
   border:solid 2px #ffffff;
-  margin:0px 0px 20px 0px;
+  margin:20px 0px 20px 0px;
   zoom:1;
 }
 
