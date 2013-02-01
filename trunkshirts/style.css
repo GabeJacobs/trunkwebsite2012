@@ -1,0 +1,241 @@
+body{
+  height:100%;
+  background:#f8f8f8;
+  border-top:7px solid #FFCC33;
+  color:#888;
+  font-family: Garamond, Georgia, Cambria, Serif;
+  margin:0;
+}
+.lobster { font-family: 'Lobster', 'Helvetica Neue', Helvetica, Georgia, arial, serif;
+  font-weight: bold;
+  color: #a0a0a0;
+  font-size: 60px;
+  text-transform:none;
+  letter-spacing:.015em;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align:left;
+  display: inline-block;
+  width: 800px;
+}
+
+p.tag {
+  font-family: 'Lobster', Georgia, Cambria, Serif;
+  color:#000;
+  font-size:2.6em;
+  line-height:1em;
+  margin:10px 0 0 0;
+}
+p.desc {
+  color:#000;
+  font:1em 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height:20px;
+  margin-bottom:28px;
+  text-align:justify;
+}
+
+div.trunkwrapper {height:200px;}
+
+span.black {
+  color:black;
+}
+span.ko {background:#FFCC33;
+  color:#ffffff;
+padding:2px;}
+span.ko2 {background:#FFCC33;
+  color:#a0a0a0;
+padding:2px;}
+
+span.shirttype {display:block;
+  background:#a0a0a0;
+  padding:7px;
+  margin-bottom:10px;
+  font-size: 1.2em;
+  font-family:'Helvetica Neue', Helvetica, Sans-serif;
+  color:#fff;
+  font-weight: bold;
+  text-transform:uppercase;
+}
+
+span.cart {display:block;
+  background:#a0a0a0;
+  padding:7px;
+  margin-top:40px;
+  margin-bottom:10px;
+  font-size: 1.2em;
+  font-family:'Helvetica Neue', Helvetica, Sans-serif;
+  color:#000;
+  font-weight: bold;
+  text-transform:uppercase;
+}
+
+span.color {font-family:'Helvetica Neue', Helvetica, Sans-serif;
+  font-weight: bold;
+  padding:7px;
+  font-size: 1em;
+  line-height:2.35em;
+}
+#black {background:#000; color:#fff;}
+#cranberry {background:#990033; color:#fff;}
+#deeppink {background:#ff5a70; color:#fff;}
+#red {background:#D60024; color:#fff;}
+#sunshine {background:#FBDE4A; color:#fff;}
+#mauve {background:#d5bacc; color:#fff;}
+#darkorchid {background:#cb49b5; color:#fff;}
+#purple {background:#4e448d; color:#fff;}
+#navy {background:#07194D; color:#fff;}
+#seablue {background:#002C56; color:#fff;}
+#lapis {background:#233A7E; color:#fff;}
+#mermaidgreen {background:#2aa4c6; color:#fff;}
+#forest {background:#17464b; color:#fff;}
+#darkheather {background:#29304E; color:#fff;}
+#asphalt {background:#353146; color:#fff;}
+#slate {background:#9d9cae; color:#fff;}
+#brown {background:#4C2613; color:#fff;}
+#heather {background:#b0b0b2; color:#fff;}
+#kellygreen {background:#1A8145; color:#fff;}
+
+
+
+p.instruct {
+  background:none;
+  padding:5px;
+  margin: 5px 0 15px 0;
+  padding: 5px 5px 10px 5px;
+  color:#a0a0a0;
+  font: bold 1.2em/1.2em 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: 105%;
+}
+p.instruct2 {
+  background:none;
+  padding:5px;
+  margin: 5px 0 15px 0;
+  padding: 5px 5px 10px 5px;
+  color:#a0a0a0;
+  font: bold 1.2em/1.2em 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing:105%;
+}
+
+p.instruct a {
+  text-decoration:none;
+  color:#a0a0a0;
+  border-width: 0px 0px 1px 0px;
+  border-style: none none dotted none;
+}
+p.instruct2 a {
+  text-decoration:none;
+  color:#a0a0a0;
+  border-width: 0px 0px 1px 0px;
+  border-style: none none dotted none;
+}
+
+p.instruct a:hover {
+  color:#FFCC33;
+}
+p.instruct2 a:hover {
+  color:#FFCC33;
+}
+p.footer {
+  border-top:1px dotted Silver;
+  margin:40px 0 30px 0;
+  padding:2px 0 10px 0;
+  color:#a0a0a0;
+  letter-spacing:.1em;
+  font: .70em 'Helvetica Neue', Helvetica, Georgia;
+  font-weight: normal;
+  text-transform:uppercase;
+}
+p.fineprint {
+  background:#FFFFE0;
+  padding: 7px 5px;
+  margin: 45px 0 0 0;
+  color: #808080;
+  font: .85em/1.3em Garamond, Georgia, Cambria, Serif;
+}
+span.fp{
+  background:#696969;
+  color:#ffffff;
+  padding:1px;
+  text-transform:uppercase;
+  font-style:bold;
+}
+span.footer_right{
+  float:right;
+  background:none;
+  padding:2px;
+}
+p.footer a {
+  color:#a0a0a0;
+  text-decoration:none;
+}
+p.footer a:hover {
+  color:#c0c0c0;
+}
+.b_center {
+  margin:40px 6px 10px 6px;
+}
+
+
+#top {
+  position:relative;
+  margin-bottom:500px;
+  padding-top:50px;
+}
+
+#trunk {
+  position:relative;
+  margin-bottom:500px;
+  padding-top:15px;
+}
+
+#union {
+  position:relative;
+  margin:0 0 50px 0;
+  padding-top:15px;
+}
+
+#hoodieheader {
+  width:100%;
+  height:400px;
+  background-image:url('hoodieheader.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+#hoodieheadertext{
+  font-family: 'Lobster', Georgia, Cambria, Serif;
+  font-size: 7.6em;
+  color:rgba(255, 255, 255, 0.74);
+  text-align:center;
+  margin-top:230px;
+}
+
+#trk {
+  display: inline-block;
+  width: 350px;
+  margin: 20px 20px 10px 0;
+  border-width: 10px; border-style: solid; border-color: #FFCC33;
+  height: 216px;
+background: url("summer/trunkbutton_w.png") no-repeat 0 0; }
+
+#trk:hover {
+background-position: 0 -216px; }
+
+#trk span {
+  position: absolute;
+top: -999em; }
+
+#uts {
+  display: inline-block;
+  width: 350px;
+  margin: 20px 0 10px 20px;
+  border-width: 10px; border-style: solid; border-color: #FFCC33;
+  height: 216px;
+background: url("summer/unionbutton_w.png") no-repeat 0 0; }
+
+#uts:hover {
+background-position: 0 -216px; }
+
+#uts span {
+  position: absolute;
+top: -999em; }
