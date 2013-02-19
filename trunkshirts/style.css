@@ -188,6 +188,11 @@ p.footer a:hover {
   padding-top:15px;
 }
 
+#intro {
+  color: #a0a0a0;
+  font: bold 1.2em/1.2em 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 #union {
   position:relative;
   margin:0 0 50px 0;
